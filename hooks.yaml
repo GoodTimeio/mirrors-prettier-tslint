@@ -1,0 +1,10 @@
+-   id: prettier-tslint
+    name: prettier-tslint
+    entry: prettier-tslint fix
+    language: node
+    files: \.ts$
+    args: []
+
+    # Use additional_dependencies to install the actual node package
+    additional_dependencies: ['prettier-tslint@0.4.2']
+    minimum_pre_commit_version: 0.7.0
