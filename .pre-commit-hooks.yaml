@@ -1,6 +1,6 @@
 -   id: prettier-tslint
     name: prettier-tslint
-    entry: prettier-eslint fix
+    entry: prettier-tslint fix
     language: node
     files: \.ts$
     args: []
